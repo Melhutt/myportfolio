@@ -1,0 +1,554 @@
+@import url(http://fonts.googleapis.com/css?family=Amatic+SC:400,700);
+
+
+
+body{
+
+	/*background-image: url(../img/sparkles.jpg);*/
+	background-repeat: no-repeat;
+	color: #000;
+	font-size: 20px;
+	font-family: 'Amatic SC', cursive; 'Sans-serif';
+	/*padding-left:100px;
+    margin:0;*/
+	text-align: center;
+	background-color: #ffffe3;
+
+}
+
+h1{
+	font-weight: bold;
+}
+
+p{
+	line-height: 25px;
+}
+
+.container{
+	margin: 0 auto;
+}
+
+header{
+	
+	text-align: center;
+	position: fixed;
+	float: left;
+	width: 100%;
+	padding: 25px;
+	background-color: #b42622;
+	position: fixed;
+	top: 0;
+	height: 110px;
+	box-shadow: 0 0 10px #888888;
+
+}
+
+div.header{
+
+	font-size: 30px;
+	color: #ffffe3;
+}
+
+header h1{
+	font-weight: bold;
+	font-size: 30px;
+}
+
+
+/*a.trigger{
+	display: none;
+}*/
+
+
+nav.site-nav{
+
+	text-align: center;
+	width: 100%;
+	padding: 20px;
+	color: #ffffe3;
+	text-decoration: none;
+	
+
+}
+
+nav.site-nav a{
+	text-decoration: none;
+	color: #ffffe3;
+	padding: 0 40px;
+	/*transition: transform 500ms ease-in-out;*/
+	-webkit-transition: all .5s ease-in-out;
+	display: inline-block;
+
+}
+
+ nav a:hover{
+	
+	 background-color: #ffffe3;
+	 -webkit-transition: .5s ease-in-out;
+	 border-radius: 5px;
+	 color: #000;
+	}
+
+/*SIDEBAR*/
+
+div#sidebar{
+
+   position:fixed;
+   height:100%;
+   width:100px; 
+   top:0;
+   left:0;
+   margin-top: 270px;
+    
+}
+
+div#sidebar a{
+	display: inline-block;
+	margin: 20px 10px 20px 10px;
+	border-radius: 20px;
+	box-shadow: 0 0 10px #888888;
+}
+
+a.newanchor{
+	padding: 10px;
+}
+
+a.neweranchor{
+	padding: 3px;
+}
+
+a.linkanchor{
+	padding: 8px 3px;
+}
+
+a.newanchor:hover{
+	border-radius: 40px;
+	background-color: #bbc4ce;
+	-webkit-transition: .5s ease-in-out;
+}
+
+
+a.neweranchor:hover{
+	border-radius: 40px;
+	background-color: #bbc4ce;
+	-webkit-transition: .5s ease-in-out;
+}
+
+a.linkanchor:hover{
+	border-radius: 40px;
+	background-color: #bbc4ce;
+	-webkit-transition: .5s ease-in-out;
+}
+
+
+div#content{
+    background:black;
+    width:100%;
+    height:1600px;
+}
+
+/*LANDING PAGE*/
+
+section.cover-text{
+	text-align: center;
+	color: #000;
+    left: 0;
+    line-height: 60px;
+    margin: auto;
+    width: 100%;
+    font-size: 50px;
+    padding-top: 220px;
+}
+
+section.cover-text h1{
+	font-weight: normal;
+}
+
+section.cover-text a{
+	text-decoration: none;
+	color: #000;
+	background-color: blanchedalmond;
+	border-radius: 40px 65px/50px 25px;
+}
+
+section.cover-text a:hover{
+	background-color: #bbc4ce;
+	 -webkit-transition: .5s ease-in-out;
+	 border-radius: 5px;
+	 color: #ffffe3;
+}
+
+
+/*INDEX.HTML*/
+
+section.Intro{
+	padding: 60px 50px 50px 50px;
+	background-size: cover;
+	margin-top: 65px;
+	overflow: hidden;
+}
+
+
+#Intro{
+	text-align: center;
+	
+	font-size: 30px;
+}
+
+	
+
+
+section{
+	text-align: center;
+	padding: 50px 70px 50px 70px;
+	background-size: cover;
+
+}
+
+section.services{
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+.services h2{
+	font-weight: bold;
+	font-size: 25px;
+	padding-bottom: 5px;
+}
+
+section.background h2{
+	font-weight: bold;
+	font-size: 25px;
+	padding-bottom: 5px;
+}
+section.background {
+	padding-bottom: 100px;
+	padding-top: 25px;
+
+}
+section.background p{
+	text-align: center;
+}
+/*is this how to make the browser go to the correct part of the page using the anchor tag?*/
+/*.services:before*/ /*{*/
+/*display: block;
+content: " ";
+margin-top: -100px;
+height: 100px;
+visibility: hidden;
+}*/
+
+
+/*.portfolio:before {
+	display: block;
+	content: " ";
+	margin-top: -130px;
+	height: 100px;
+	visibility: hidden;	
+}*/
+
+section.images{
+	padding: 100px 50px 50px 50px;
+}
+
+section.images h2{
+	padding: 10px;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+
+#round {
+     border-radius: 50%;
+     overflow: hidden;
+     width: 108px;
+     height: 108px;
+     display: inline-block;
+            }
+
+#round img {
+                display:block;
+            /* Stretch 
+                  height: 100%;
+                  width: 100%; */
+            min-width: 100%;
+            min-height: 100%;
+
+            }
+
+
+section.profile{
+	padding-top: 140px;
+	padding-bottom: 5px;
+}
+
+
+.profile img{
+	text-align: center;
+}
+
+/*PORTFOLIO PAGE*/
+
+#portfolio2{
+	padding: 50px;
+}
+
+#portfolio img{
+	width: 720px;
+	height: 450px;
+	text-align: center;
+	margin-top: 20px;	
+}
+
+
+#portfolio2 img{
+	width: 720px;
+	height: 450px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+
+/*HOUSE PAGE*/
+
+section.house{
+	padding-top: 140px;
+}
+
+section.house a{
+	text-decoration: none;
+	background-color: blanchedalmond;
+	border-radius: 55px 120px/50px 25px;
+	color: #000;
+}
+
+section.house a:hover{
+	background-color: #bbc4ce;
+	 -webkit-transition: .5s ease-in-out;
+	 border-radius: 55px 120px/50px 25px;
+	 color: #ffffe3; 
+}
+
+/*CONTACT PAGE*/
+
+#contact a{
+	text-decoration: none;
+	color: #000;
+	background-color: blanchedalmond;
+	border-radius: 55px 120px/50px 25px;
+}
+
+#contact a.email:hover{
+	
+	 background-color: #bbc4ce;
+	 -webkit-transition: .5s ease-in-out;
+	 border-radius: 55px 120px/50px 25px;
+	 color: #ffffe3;
+
+}
+
+#contact a.tel:hover{
+	background-color: #bbc4ce;
+	 -webkit-transition: .5s ease-in-out;
+	 border-radius: 55px 120px/50px 25px;
+	 color: #ffffe3;
+}
+
+.contact h2{
+	font-size: 25px;
+	font-weight: bold;
+}
+
+section.contact{
+	padding: 20px 20px 100px 20px;
+}
+
+small{
+	color:#ffffe3;
+}
+
+img{
+	width: 100%;
+}
+
+
+section.coffee{
+	padding: 200px 50px 50px 50px;
+}
+
+/*FOOTER*/
+
+footer{
+	text-align: center;
+	
+}
+
+
+footer{
+	color: #ffffe3;
+	padding: 0;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: #b42622;
+	height: 60px;
+	padding-top: 15px;
+	box-shadow: 0 0 10px #888888;
+}
+
+/*--------------------------MEDIA QUERY---------------------------------------------*/
+
+@media screen and (max-width: 900px){
+	
+	header{
+		/*height:150px;*/
+		text-align: center;
+		/*no matter what height the margins etc are, fit everything inside the box*/
+		height: auto;
+		float: none;
+		padding: 5px;
+	}
+	
+	/*to be used if using a burger menu*/
+	/*nav{
+		display: none;
+	}*/
+
+	/*a.trigger{
+		display: block;
+		position: absolute;
+	}*/
+
+
+
+	nav.site-nav a{
+		
+		padding: 10px;
+	}
+
+	nav.site-nav{
+		padding: 5px 0;
+	}
+
+/*LANDING PAGE*/
+
+section.cover-text{
+		padding: 230px 50px 70px 65px;
+		margin: 0 auto;
+		position: static;
+		font-size: 40px;
+		line-height: inherit;
+	}
+
+
+	/*section{
+		height: auto;
+		text-align: center;*/
+		/*we have still got the margin-top 75px being applied, leaving a white gap above our 
+		section. To remove this, we set the margin back to 0*/
+	/*	margin: 0;
+	}
+*/
+	
+	section.Intro{
+		padding-top: 125px;
+		padding-bottom: 25px;
+	}
+
+	section.profile{
+		padding-bottom: 25px;
+		padding-top: 100px;
+	}
+	
+
+/*PORTFOLIO PAGE*/
+
+	div.portfolio{
+		padding: 80px 0px 50px 10px;
+	}
+	
+#portfolio img{
+	max-width: 100%;
+	height:auto;
+	width: auto\9;
+
+}
+
+#portfolio2 img{
+	max-width: 100%;
+	height: auto;
+}
+
+	#portfolio {
+		padding: 10px;
+
+	}
+
+	#portfolio2{
+		padding: 10px;
+	}
+
+
+
+	/*section.images{
+		width: 650px;
+		width: 100%;
+	}*/
+	
+	/*div.portfolio{
+		width: 650px;
+		width 100% makes the image fit on the page, whatever width
+		max-width:100%;
+	}
+
+	div.portfolio2{
+		width: 650px;
+		max-width: 100%;*/
+	}
+
+	section.services{
+		padding: 0 80px 25px 80px;
+	}
+	
+
+/*SIDEBAR*/
+
+
+	div#sidebar{
+		margin-top: 210px;
+		margin-left: -15px;
+	}
+	/*sidebar{
+		display: none;
+
+	}*/
+
+	div#sidebar a{
+		margin: 10px;
+	}
+	section.background{
+		padding: 25px 80px 100px 80px;
+	}
+	
+	
+	
+	div.header{
+		text-align: center;
+	}	
+
+	section.coffee{
+		padding: 220px 70px 5px 70px;
+	}
+
+	section.contact{
+		padding: 0 50px 100px 50px;
+	}
+
+	footer{
+		height: 70px;
+	}
+		/*how to move the newanchor and neweranchor to the footer using javascript??*/
+		
+
+	
+}
