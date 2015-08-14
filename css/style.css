@@ -293,7 +293,8 @@ section.profile{
 	padding: 50px;
 }
 
-#portfolio img{
+div.portfolio img{
+	border-radius: 15px;
 	width: 720px;
 	height: 450px;
 	text-align: center;
@@ -301,12 +302,7 @@ section.profile{
 }
 
 
-#portfolio2 img{
-	width: 720px;
-	height: 450px;
-	text-align: center;
-	margin-top: 20px;
-}
+
 
 
 /*HOUSE PAGE*/
